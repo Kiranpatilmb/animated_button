@@ -8,7 +8,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:animated_button/main.dart';
+import 'package:animated_button/animated_button.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
