@@ -1,9 +1,11 @@
-name: animated_button
-description: A new Flutter project.
+name: rounded_animated_button
+description: >-
+  Have you been used a animated button?  Would you like to be?
+  This package can help. It has all of the you want from the animation like bounce out-in.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'https://pub.dartlang.org' # Remove this line if you wish to publish to pub.dev
+homepage: https://github.com/Kiranpatilmb/animated_button.git
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43

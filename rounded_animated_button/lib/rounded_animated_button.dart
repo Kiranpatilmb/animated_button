@@ -3,8 +3,8 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:loading_animations/loading_animations.dart';
 
-class AnimatedButton extends StatefulWidget {
-  final AnimatedButtons? controller ;
+class RoundedAnimatedButton extends StatefulWidget {
+  final RoundedAnimatedButtons? controller ;
 
   final VoidCallback? onPressed;
 
@@ -22,7 +22,7 @@ class AnimatedButton extends StatefulWidget {
 
   final double? borderRadius;
 
-  const AnimatedButton(
+  const RoundedAnimatedButton(
       {
         this.controller,
         this.onPressed,
@@ -35,10 +35,10 @@ class AnimatedButton extends StatefulWidget {
         this.animateOnTap = true});
 
   @override
-  State<StatefulWidget> createState() => AnimatedButtonState();
+  State<StatefulWidget> createState() => RoundedAnimatedButtonState();
 }
 
-class AnimatedButtonState extends State<AnimatedButton>
+class RoundedAnimatedButtonState extends State<RoundedAnimatedButton>
     with TickerProviderStateMixin {
   AnimationController? _buttonController;
   AnimationController? _checkButtonControler;
@@ -192,7 +192,7 @@ class AnimatedButtonState extends State<AnimatedButton>
   }
 }
 
-class AnimatedButtons {
+class RoundedAnimatedButtons {
   late VoidCallback _startListener;
   late VoidCallback _stopListener;
   late VoidCallback _successListener;
